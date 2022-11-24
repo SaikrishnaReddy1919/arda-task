@@ -3,7 +3,7 @@ pragma solidity ^0.8.0;
 
 import '@uniswap/v3-periphery/contracts/interfaces/INonfungiblePositionManager.sol';
 
-contract ArdaContract is Ownable {
+contract ArdaContract {
     address public s_poolManager;
     address private immutable i_owner;
 

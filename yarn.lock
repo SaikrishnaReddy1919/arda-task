@@ -681,10 +681,10 @@
     "@types/sinon-chai" "^3.2.3"
     "@types/web3" "1.0.19"
 
-"@openzeppelin/contracts@3.4.1-solc-0.7-2":
-  version "3.4.1-solc-0.7-2"
-  resolved "https://registry.yarnpkg.com/@openzeppelin/contracts/-/contracts-3.4.1-solc-0.7-2.tgz#371c67ebffe50f551c3146a9eec5fe6ffe862e92"
-  integrity sha512-tAG9LWg8+M2CMu7hIsqHPaTyG4uDzjr6mhvH96LvOpLZZj6tgzTluBt+LsCf1/QaYrlis6pITvpIaIhE+iZB+Q==
+"@openzeppelin/contracts@3.4.2-solc-0.7":
+  version "3.4.2-solc-0.7"
+  resolved "https://registry.yarnpkg.com/@openzeppelin/contracts/-/contracts-3.4.2-solc-0.7.tgz#38f4dbab672631034076ccdf2f3201fab1726635"
+  integrity sha512-W6QmqgkADuFcTLzHL8vVoNBtkwjvQRpYIAom7KiUNoLKghyx3FgH0GBjt8NRvigV1ZmMOBllvE1By1C+bi8WpA==
 
 "@openzeppelin/contracts@^4.8.0":
   version "4.8.0"
@@ -1011,12 +1011,12 @@
   resolved "https://registry.yarnpkg.com/@uniswap/v3-core/-/v3-core-1.0.0.tgz#6c24adacc4c25dceee0ba3ca142b35adbd7e359d"
   integrity sha512-kSC4djMGKMHj7sLMYVnn61k9nu+lHjMIxgg9CDQT+s2QYLoA56GbSK9Oxr+qJXzzygbkrmuY6cwgP6cW2JXPFA==
 
-"@uniswap/v3-periphery@1.0.1":
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/@uniswap/v3-periphery/-/v3-periphery-1.0.1.tgz#3d111ba4d33a6ac07d729c72a4a43298f92056ec"
-  integrity sha512-1Q4DVWNWfRumbNrBJgebLOUULGng5g3uky5suu4Cc7GtA1+JmEnw3J2VOrJSv2zn1LOPjURhZgU5T7NiIl2yeA==
+"@uniswap/v3-periphery@^1.4.3":
+  version "1.4.3"
+  resolved "https://registry.yarnpkg.com/@uniswap/v3-periphery/-/v3-periphery-1.4.3.tgz#a6da4632dbd46b139cc13a410e4ec09ad22bd19f"
+  integrity sha512-80c+wtVzl5JJT8UQskxVYYG3oZb4pkhY0zDe0ab/RX4+8f9+W5d8wI4BT0wLB0wFQTSnbW+QdBSpkHA/vRyGBA==
   dependencies:
-    "@openzeppelin/contracts" "3.4.1-solc-0.7-2"
+    "@openzeppelin/contracts" "3.4.2-solc-0.7"
     "@uniswap/lib" "^4.0.1-alpha"
     "@uniswap/v2-core" "1.0.1"
     "@uniswap/v3-core" "1.0.0"
